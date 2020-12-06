@@ -11,7 +11,11 @@ matrix:
   - python: 3.8
     arch: arm64
   - python: 3.9
+  - python: 3.9-dev
+    arch: arm64
   - python: 3.10-dev
+  - python: 3.10-dev
+    arch: arm64
   - python: pypy3
 install:
   - pip install -r requirements.txt
